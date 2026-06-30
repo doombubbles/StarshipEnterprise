@@ -1,0 +1,32 @@
+[package]
+name = "StarshipEnterprise"
+namespace = "doombubbles"
+description = "Adds in the Starship Enterprise to BloonsTD6 with 7 Upgrade Paths that have 6 Upgrades each."
+websiteUrl = "https://github.com/doombubbles/StarshipEnterprise"
+
+[package.dependencies]
+LavaGang-MelonLoader = "0.7.3"
+doombubbles-Btd6ModHelper = "3.6.5"
+doombubbles-PathsPlusPlus = "1.2.2"
+
+[build]
+icon = "./StarshipEnterprise-Icon.png"
+readme = "./README.md"
+outdir = "bin"
+
+[[build.copy]]
+source = "./bin/Release/StarshipEnterprise.dll"
+target = "StarshipEnterprise.dll"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "./LICENSE"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["bloons-td-6"]
+categories = ["mods"]

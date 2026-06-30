@@ -14,7 +14,8 @@ public static class ModHelperData
         "Requires Paths++";
 
     public const string RepoOwner = "doombubbles";
-    public const string RepoName = "starship-enterprise";
+    public const string PrevRepoName = "starship-enterprise";
+    public const string RepoName = "StarshipEnterprise";
 
     public const string Icon = "StarshipEnterprise-Icon.png";
 

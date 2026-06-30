@@ -1,2 +1,0 @@
-- Updated for BTD6 v55
-- Switched some internals to new Mod Helper extensions
